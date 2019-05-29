@@ -1,0 +1,148 @@
+@import url(reset.css);
+.content-box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1090px;
+    height: inherit;
+    min-height: inherit;
+    display: flex;
+}
+
+.d-none{
+    display: none;
+}
+
+#header{
+    --background-color: #05090a;
+    height: 108px;
+    
+}
+   
+    #header .member-menu{
+        background: #bdbaba;
+        height: 41px;
+    }
+    #header .main-menu{
+        margin: 0px;
+        --background: rgb(91, 78, 216);
+        --border: #e7d639;
+    }
+
+    /* #header .main-menu{
+        height: 67px;
+    } */
+#body{
+    --background-color: #e7d639;
+    min-height: 540px;
+}
+    #body .content-box{
+        flex-direction: row;
+        display: flex;
+    }
+
+    #body .content-box>aside{
+        background: yellowgreen;
+        --float: left;
+        min-height: inherit;
+        width: 252px;
+        
+    }
+    #body .content-box>main{
+        background: rgb(124, 124, 9);
+        --float: left;
+        min-height: inherit;
+        width: 838px;
+   
+    }
+#footer{
+    background-color: #35302f;
+    height: 189px;
+}
+    #footer>.content-box{
+        
+    }
+
+    /* -===가구===콘텐츠 스타일 + 콘텐츠 블록=======- */
+
+#member-menu-list>h1{
+    text-indent: -999px;
+    overflow: hidden;
+    font-size: 0px;
+}    
+
+#member-menu-list{
+    display: inline-block;
+    border: #31b0e2 3px solid;
+}
+#member-menu-list>h1{
+    text-indent: -999px;
+    overflow: hidden;
+    font-size: 0px;
+}
+
+#member-menu-list>ul{
+    display: flex;
+    line-height: 35px;
+}
+
+#member-menu-list>ul>li{
+    padding-left: 15px;
+    background: url("../images/bg-main-menu-vsp.png") no-repeat 7px center;
+}
+#member-menu-list>ul>li:first-child{
+    padding: 0x;
+    background: none;
+
+}
+#player-search-form{
+    border : 2px solid #e06016;
+    width: inherit;
+    height: 12px;
+    display: flex;
+
+}
+
+    #player-search-form>h1{
+        text-indent: -999px;
+        overflow: hidden;
+        font-size: 0px;
+        
+    }
+
+    #player-search-form input[type=text]{
+        
+        padding-left: 10px;
+        padding-right: 5px;
+    }
+
+    #player-search-form input[type=submit]{
+        background: none;
+        border: 0px;
+    }
+#main-menu{
+    display: flex;
+}
+    #main-menu>h1{
+        --text-indent: -999px;
+        --overflow: hidden;
+    }
+    #logo{
+        background: url("../images/kbo-logo.png") no-repeat center;
+        border: #31b0e2 1px solid;
+        width: 98px;
+        height: 53px;
+        text-indent: -999px;
+        overflow: hidden;
+        padding: 7px;
+        display: inline-block;
+    }
+
+    #main-menu>section{
+        border: #31b0e2 solid 3px;
+        display: inline-block;
+    }
+    
+    #main-menu>section>ul{
+        display: flex;
+    }
+     /* -===header 배치=======- */
