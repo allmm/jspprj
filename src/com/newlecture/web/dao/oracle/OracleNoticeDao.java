@@ -159,6 +159,7 @@ public class OracleNoticeDao implements NoticeDao{
 		
 		return notice;
 	}
+	
 	@Override
 	public int insert(Notice notice) throws ClassNotFoundException, SQLException {
 		
