@@ -40,6 +40,7 @@ public class OracleNoticeDao implements NoticeDao{
 		
 		Connection con = DriverManager.getConnection(url, "\"newlec\"", "l4class");
 		PreparedStatement st = con.prepareStatement(sql);
+		
 		st.setString(1,  "%"+query+"%");
 		st.setInt(2,  start);
 		st.setInt(3,  end);

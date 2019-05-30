@@ -69,7 +69,7 @@
 
     <jsp:include page="../inc/aside.jsp"/>
 
-<%--     <main>
+ <main>
         <section>
             <h1 id="main-title">공지사항</h1>
             <section>
@@ -141,7 +141,7 @@
                 </div>
             </section>
         </section>
-    </main>  --%>
+    </main>
     <!-- <div style="clear:left;">안녕 나는 막내야</div> -->
     </div>
 </div>
