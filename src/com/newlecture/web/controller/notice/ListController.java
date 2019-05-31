@@ -32,7 +32,7 @@ public class ListController extends HttpServlet{
 		}
 		
 		
-		request.getRequestDispatcher("/WEB-INF/view/notice/list2.jsp").forward(request, response);
+		request.getRequestDispatcher("../WEB-INF/view/notice/list2.jsp").forward(request, response);
 	}
 	
 }

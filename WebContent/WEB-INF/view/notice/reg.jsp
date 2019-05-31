@@ -82,7 +82,7 @@
             </section>
          
          <section>
-	         <form action="reg" method="post">
+	         <form action="reg" method="post" enctype="multipart/form-data">
 	         <h1>공지사항 내용</h1>
 	         <table>
 		         <tbody>
@@ -91,8 +91,9 @@
 				         <td><input name="title"></td>
 			         </tr>
 			         <tr>
-				         <th>작성일</th>
-				         <td>${notice.regDate}</td>
+				         <th>첨부파일</th>
+				         <td><input type="file" name="file"></td>
+				         
 			         </tr>
 			         <tr>
 				         <th>내용</th>

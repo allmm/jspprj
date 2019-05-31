@@ -30,7 +30,7 @@
 
 <head>
     <meta charset="UTF-8">
-  	<meta name="viewport" content="width=device-width,initial-scale=1">
+  	<!-- <meta name="viewport" content="width=device-width,initial-scale=1"> -->
     <title>Document</title>
     <!-- 스타일 속성(x) -> 선택자 이용 스타일 부여 -->
     <link rel="stylesheet" type="text/css" href="../CSS/style.css">
@@ -50,7 +50,7 @@
 <%-- <jsp:include page="../inc/header.jsp"></jsp:include> --%>
 <!-- --- visual block ---------------------------------------------------------------------------------------------------------------- -->
 <div id="visual">
-    <div class="content-box1" style="position: relative">
+    <div class="content-box" style="position: relative">
         
         <!-- <div style="height: 100px; width: 100px; border: 1px solid red;
         background: url(https://img1.daumcdn.net/thumb/S600x434/?scode=1boon&fname=https://t1.daumcdn.net/news/201811/03/starnews/20181103152130511pdgw.jpg);
@@ -65,7 +65,7 @@
 </div>
 <!-- --- Body block ---------------------------------------------------------------------------------------------------------------- -->
 <div id="body">
-    <div class="content-box1">
+    <div class="content-box">
 
     <jsp:include page="../inc/aside.jsp"/>
 
